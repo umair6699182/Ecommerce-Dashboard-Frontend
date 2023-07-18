@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.search{
+  padding: 10px;
+  width: 315px;
+  margin: 20px 0px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  /* background-color: linear-gradient(#b2fefa, #0ed2f7); */
+  padding: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#ff6eb6, #12eff7);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.table-list{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-list h1{
+  margin-top: 30px;
+}
+.table-list table{
+  margin-top: 20px;
+ border: 1px solid skyblue;
+}
+.table-list table th,td{
+ border: 1px solid skyblue;
+ padding: 15px 45px;
+}
+
+.flex {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.flex li{
+  list-style: none;
+  padding: 10px;
+  margin-right: 5px;
+
+}
+.flex li a{
+  font-size: 20px;
+  color: rgb(247, 238, 238);
+  text-decoration: none;
+
+  font-weight: 700;
+  transition: 0.3s;
+}
+.flex li a:hover{
+  color: rgb(24, 5, 13);
+}
+.ft{
+  
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: skyblue;
+  color: black;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#right{
+  display: flex;
+  justify-content: flex-end;
+}
+.sign h1{
+  margin-top: 10px;
+}
+
+.inputBox{
+  margin: 25px;
+  padding: 7px;
+  width: 400px;
+  border: 1px solid skyblue;
+}
+.fa-solid{
+  font-size: 30px;
+  color: #eb0505;
+}
+.fa-sharp{
+  font-size: 30px;
+  color: rgb(243, 23, 170);
+}
+.btn{
+  font-size: 20px;
+  border: none;
+  background-color: rgb(226, 22, 22);
+  padding: 8px;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+.link{
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+  background-color: #1221eb;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
+.logo{
+  width: 100px;
+  height: 90px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
